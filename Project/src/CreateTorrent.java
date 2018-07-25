@@ -50,6 +50,7 @@ public class CreateTorrent extends javax.swing.JFrame implements Runnable{
             }
         });
 
+        jButton1.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton1.setText("Create");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -58,7 +59,7 @@ public class CreateTorrent extends javax.swing.JFrame implements Runnable{
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Sitka Display", 0, 14)); // NOI18N
         jLabel1.setText("Enter the name of file");
         jLabel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -85,7 +86,7 @@ public class CreateTorrent extends javax.swing.JFrame implements Runnable{
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addContainerGap())
         );
