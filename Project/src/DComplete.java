@@ -33,10 +33,11 @@ public class DComplete extends javax.swing.JFrame {
         setTitle("Download Complete");
         setLocation(new java.awt.Point(300, 300));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Sitka Display", 3, 14)); // NOI18N
         jLabel1.setText("           Congragulations Download Complete");
         jLabel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        jButton1.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton1.setText("Back");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
