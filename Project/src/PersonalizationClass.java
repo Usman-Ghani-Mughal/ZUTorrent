@@ -64,31 +64,37 @@ public class PersonalizationClass extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Sitka Display", 1, 11)); // NOI18N
         jLabel1.setText("      Main Frame Setting");
-        jLabel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("                Colors");
         jLabel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel3.setText("1");
 
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel4.setText("2");
         jLabel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel5.setText("3");
         jLabel5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
+        jLabel6.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel6.setText("4");
         jLabel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
+        jLabel7.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel7.setText("5");
         jLabel7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
+        jButton1.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton1.setText("White");
-        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -96,8 +102,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton2.setBackground(new java.awt.Color(255, 0, 51));
+        jButton2.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton2.setText("Red");
-        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -105,8 +112,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton3.setBackground(new java.awt.Color(0, 51, 204));
+        jButton3.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton3.setText("Blue");
-        jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -114,8 +122,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton4.setBackground(new java.awt.Color(0, 255, 255));
+        jButton4.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton4.setText("Cyan");
-        jButton4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton4.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -123,8 +132,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton5.setBackground(new java.awt.Color(153, 153, 153));
+        jButton5.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton5.setText("Gray");
-        jButton5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -168,10 +178,10 @@ public class PersonalizationClass extends javax.swing.JFrame {
                 .addGap(1, 1, 1)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel3)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4)
                     .addComponent(jButton2))
@@ -193,26 +203,32 @@ public class PersonalizationClass extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Sitka Display", 1, 11)); // NOI18N
         jLabel8.setText("      PInformation Setting");
-        jLabel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel8.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel9.setText("                   Colors");
 
+        jLabel10.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel10.setText("1");
 
+        jLabel11.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel11.setText("2");
 
+        jLabel12.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel12.setText("3");
 
+        jLabel13.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel13.setText("4");
 
+        jLabel14.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jLabel14.setText("5");
 
         jButton7.setBackground(new java.awt.Color(255, 204, 0));
+        jButton7.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton7.setText("Orange");
-        jButton7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton7.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
@@ -220,8 +236,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton8.setBackground(new java.awt.Color(255, 255, 102));
+        jButton8.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton8.setText("Yellow");
-        jButton8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton8.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
@@ -229,8 +246,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton9.setBackground(new java.awt.Color(0, 204, 0));
+        jButton9.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton9.setText("Green");
-        jButton9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton9.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -238,8 +256,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton10.setBackground(new java.awt.Color(255, 0, 255));
+        jButton10.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton10.setText("Pink");
-        jButton10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton10.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton10ActionPerformed(evt);
@@ -247,8 +266,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
         });
 
         jButton11.setBackground(new java.awt.Color(51, 0, 153));
+        jButton11.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton11.setText("Blue");
-        jButton11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton11.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton11ActionPerformed(evt);
@@ -292,10 +312,10 @@ public class PersonalizationClass extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
+                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton8)
                     .addComponent(jLabel11))
@@ -314,8 +334,9 @@ public class PersonalizationClass extends javax.swing.JFrame {
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
+        jButton6.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton6.setText("Back");
-        jButton6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton6.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -345,7 +366,7 @@ public class PersonalizationClass extends javax.swing.JFrame {
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton6)
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         pack();

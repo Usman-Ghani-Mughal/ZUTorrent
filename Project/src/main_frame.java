@@ -131,6 +131,7 @@ public class main_frame extends javax.swing.JFrame {
         });
 
         addTbyURl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Add-Folder-icon.png"))); // NOI18N
+        addTbyURl.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(51, 153, 255))); // NOI18N
         addTbyURl.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addTbyURl(evt);
@@ -138,6 +139,7 @@ public class main_frame extends javax.swing.JFrame {
         });
 
         creatnewtorrent.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Add-Folder-icon.png"))); // NOI18N
+        creatnewtorrent.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         creatnewtorrent.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 creatnewtorrentActionPerformed(evt);
@@ -145,6 +147,7 @@ public class main_frame extends javax.swing.JFrame {
         });
 
         remove.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/bin-icon.png"))); // NOI18N
+        remove.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         remove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 removeActionPerformed(evt);
@@ -152,6 +155,7 @@ public class main_frame extends javax.swing.JFrame {
         });
 
         start.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Start-icon.png"))); // NOI18N
+        start.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         start.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 startActionPerformed(evt);
@@ -159,43 +163,48 @@ public class main_frame extends javax.swing.JFrame {
         });
 
         stop.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Stop-Hot-icon.png"))); // NOI18N
+        stop.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         stop.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 stopActionPerformed(evt);
             }
         });
 
-        num.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        num.setFont(new java.awt.Font("Sitka Display", 1, 18)); // NOI18N
         num.setText("  #");
-        num.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        num.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        nameText.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        nameText.setFont(new java.awt.Font("Sitka Display", 1, 14)); // NOI18N
         nameText.setText("Name");
-        nameText.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        nameText.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        size.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        size.setFont(new java.awt.Font("Sitka Display", 1, 11)); // NOI18N
         size.setText("  Size");
-        size.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        size.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        status.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        status.setFont(new java.awt.Font("Sitka Display", 1, 11)); // NOI18N
         status.setText("   Status");
-        status.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        status.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         meu.setBackground(new java.awt.Color(204, 204, 204));
 
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Sitka Display", 1, 14)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Toolbar-Downloads-icon.png"))); // NOI18N
         jButton3.setText("Torrent");
+        jButton3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 torrentFrame(evt);
             }
         });
 
+        jLabel21.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jLabel21.setText("             WE WILL ADD ");
 
+        jLabel22.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jLabel22.setText("         OTHER OPTIONS HERE");
 
+        jLabel23.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jLabel23.setText("           IN NEXT VERSION");
 
         javax.swing.GroupLayout meuLayout = new javax.swing.GroupLayout(meu);
@@ -235,7 +244,7 @@ public class main_frame extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        searchtext.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        searchtext.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         searchtext.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 searchtextActionPerformed(evt);
@@ -243,6 +252,7 @@ public class main_frame extends javax.swing.JFrame {
         });
 
         searchbutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/search-button-green-icon.png"))); // NOI18N
+        searchbutton.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         searchbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 searchbuttonActionPerformed(evt);
@@ -252,11 +262,12 @@ public class main_frame extends javax.swing.JFrame {
         img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/14898.jpg"))); // NOI18N
         img.setText("jLabel7");
 
-        downspeed.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        downspeed.setFont(new java.awt.Font("Sitka Display", 1, 11)); // NOI18N
         downspeed.setText("   Down Speed");
-        downspeed.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        downspeed.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Write-Pencil-Mail-icon.png"))); // NOI18N
+        jButton1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -264,91 +275,110 @@ public class main_frame extends javax.swing.JFrame {
         });
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/settings-3-icon.png"))); // NOI18N
+        jButton2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sitka Display", 1, 11)); // NOI18N
         jLabel2.setText("seeds/peers");
-        jLabel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
         jPanel1.setLayout(null);
 
-        jLabel4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel4.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel4.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel4);
         jLabel4.setBounds(404, 0, 84, 23);
 
-        jLabel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel5.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel5);
         jLabel5.setBounds(56, 0, 330, 23);
 
+        jLabel6.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jLabel6.setText("     ");
-        jLabel6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel6.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel6);
         jLabel6.setBounds(0, 0, 38, 23);
 
-        jLabel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel3.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel3);
         jLabel3.setBounds(498, 0, 98, 23);
 
-        jLabel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel7.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel7.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel7);
         jLabel7.setBounds(602, 0, 95, 23);
 
-        jLabel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel1.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel1);
         jLabel1.setBounds(707, 0, 80, 23);
 
+        jLabel9.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jLabel9.setText("     ");
-        jLabel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel9.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel9);
         jLabel9.setBounds(0, 29, 38, 23);
 
-        jLabel10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel10.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel10.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel10);
         jLabel10.setBounds(56, 29, 330, 23);
 
-        jLabel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel11.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel11.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel11);
         jLabel11.setBounds(404, 29, 84, 23);
 
-        jLabel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel12.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel12.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel12);
         jLabel12.setBounds(498, 29, 98, 23);
 
-        jLabel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel13.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel13.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel13);
         jLabel13.setBounds(602, 29, 95, 23);
 
-        jLabel14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel14.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel14.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel14);
         jLabel14.setBounds(707, 29, 80, 23);
 
+        jLabel15.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jLabel15.setText("     ");
-        jLabel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel15.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel15);
-        jLabel15.setBounds(0, 58, 38, 20);
+        jLabel15.setBounds(0, 58, 38, 19);
 
-        jLabel16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel16.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel16.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel16);
         jLabel16.setBounds(56, 58, 330, 20);
 
-        jLabel17.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel17.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel17.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel17);
         jLabel17.setBounds(404, 58, 84, 20);
 
-        jLabel18.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel18.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel18.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel18);
         jLabel18.setBounds(498, 58, 98, 20);
 
-        jLabel19.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel19.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel19.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel19);
         jLabel19.setBounds(602, 58, 95, 23);
 
-        jLabel20.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel20.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
+        jLabel20.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel1.add(jLabel20);
         jLabel20.setBounds(707, 58, 80, 23);
 
@@ -369,8 +399,9 @@ public class main_frame extends javax.swing.JFrame {
                 .addGap(0, 227, Short.MAX_VALUE))
         );
 
+        jButton4.setFont(new java.awt.Font("Sitka Display", 0, 11)); // NOI18N
         jButton4.setText("Go Back To Menu");
-        jButton4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton4.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -528,9 +559,6 @@ public class main_frame extends javax.swing.JFrame {
                         .addComponent(addTorrent, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(273, 273, 273)
-                        .addComponent(num))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(273, 273, 273)
                         .addComponent(size, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addComponent(jScrollBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 626, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -545,7 +573,9 @@ public class main_frame extends javax.swing.JFrame {
                                             .addGap(234, 234, 234)
                                             .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(layout.createSequentialGroup()
-                                            .addGap(307, 307, 307)
+                                            .addGap(273, 273, 273)
+                                            .addComponent(num, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                             .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(layout.createSequentialGroup()
                                             .addGap(234, 234, 234)
